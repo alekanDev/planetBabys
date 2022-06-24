@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gochi+Hand&family=Handlee&family=Just+Another+Hand&family=Patrick+Hand&family=Schoolbell&display=swap" rel="stylesheet">
+
+    <!-- css document -->
+    <link rel="stylesheet" href="./static/css/index.css">
+
+    <!-- js document -->
+    <script src="./static/js/app.js"></script>
+
+    <title>Planet Baby's</title>
+</head>
+<body>
+    <!-- NAVBAR -->
+    <div id="navBar" class="navBar">
+        <a id="inicio" href="">Inicio</a>
+        <a id="catalogo" href="">Cátalogo</a>
+        <a id="ofertas" href="">Ofertas</a>
+        <a id="nuestrosKits" href="">Nuestros kits</a>
+    </div>
+
+    <div id="navBarStatic" class="navBarStatic">
+        <div id="logoNav">
+            <img src="./static/images/icons/logo.png" alt="logo.png">
+            <div id="sloganNav">
+                <h1><span id="planetNav">PLANET</span>  <span id="babysNav">BABY'S</span></h1>
+                <h4>Felicidad para tú bebé</h4>
+            </div>
+
+        </div>
+        <div id="menuNav">
+            <a id="inicioNav" href="">Inicio</a>
+            <a id="catalogoNav" href="">Cátalogo</a>
+            <a id="ofertasNav" href="">Ofertas</a>
+            <a id="nuestrosKitsNav" href="">Nuestros kits</a>
+        </div>
+    </div>
+
+    <!-- BANNER -->
+    <section id="banner">
+
+        <div id="bussiness">
+            
+            <div id="logo">
+                <img src="./static/images/icons/logo.png" alt="logo.png">
+            </div>
+
+            <div id="slogan">
+                <h1><span id="planet">PLANET</span>  <span id="babys">BABY'S</span></h1>
+                <h4>Felicidad para tú bebé</h4>
+            </div>
+
+        </div>
+
+        <div id="spaceNavBar"></div>
+
+        <div id="information">
+
+            <div id="picture">
+                <img id="pictureSlide" alt="images">
+            </div>
+            
+            <div id="description">
+                <div id="dataDescription">
+                    <h1>Sabias que ...</h1>
+                    <p id="textInfo"></p>
+                </div>
+            </div>
+
+        </div>
+        <div id="selection">
+            <button class="btnDown" id="data0" onclick="slideSel('1')"></button>
+            <button class="btnDown" id="data1" onclick="slideSel('2')"></button>
+            <button class="btnDown" id="data2" onclick="slideSel('3')"></button>
+            <button class="btnDown" id="data3" onclick="slideSel('4')"></button>
+            <button class="btnDown" id="data4" onclick="slideSel('5')"></button>
+        </div>
+        
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery">
+        <div id="contentGallery">
+            <div id="imgPpal">
+                <img id="imageP" src="./static/images/clotes/girls/5.jpg" alt="imgPpal">
+            </div>
+            <div id="imgList">
+                <div id="imgTittle">
+                    <h1>Antojos para tú bebé</h1>
+                    <h3>Consientele SIEMPRE</h3>
+                </div>
+                <div id="listImg">
+                    <button id="position1">
+                        <img id="imgPosition1" src="./static/images/clotes/girls/1.jpg" alt="grils_1">
+                    </button>
+                    <button id="position2">
+                        <img src="./static/images/clotes/boys/1.jpg" alt="boys_1">
+                    </button>
+                    <button id="position3">
+                        <img src="./static/images/clotes/girls/2.jpg" alt="grils_2">
+                    </button>
+                    <button id="position4">
+                        <img src="./static/images/clotes/boys/2.jpg" alt="boys_2">
+                    </button>
+                    <button id="position5">
+                        <img src="./static/images/clotes/girls/3.jpg" alt="grils_3">
+                    </button>
+                    <button id="position6">
+                        <img src="./static/images/clotes/boys/4.jpg" alt="boys_3">
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIALS -->
+    <section id="testimonials">
+    
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer">
+        <div id="footerContent">
+            <div id="weNetworks">
+                <div id="weNetworksTittle">
+                    <h1>Nuestras Redes Sociales</h1>
+                </div>
+                <div id="weNetworksIcons">
+                    <div id="facebook">
+                        <button id="faceBtn" class="net">
+                            <img src="./static/images/icons/facebook.png" alt="facebook">
+                        </button>
+                        <h1 id="face">Facebook</h1>
+                    </div>
+                    <div id="whatsapp">
+                        <button id="wppBtn" class="net">
+                            <img id="imgWpp" src="./static/images/icons/whatsapp.png" alt="whatsapp">
+                        </button>
+                        <h1 id="wpp">Whatsapp</h1>
+                    </div>
+                    <div id="instagram">
+                        <button id="instaBtn" class="net">
+                            <img src="./static/images/icons/instagram.png" alt="instagram">
+                        </button>
+                        <h1 id="insta">Instagram</h1>
+                    </div>
+                </div>
+            </div>
+            <div id="weInformation">
+                <div id="weInfoTittle">
+                    <a id="menuHow" href="">Comol llegar?</a>
+                    <a id="menuSites" href="">Sedes</a>
+                    <a id="menuAbout" href="">Acerca de</a>
+                </div>
+                <div id="weInfoContent">
+                    <div id="how">
+                        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.03871822212!2d-75.61581838569371!3d6.258630327923249!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e4429b6ff113911%3A0x4e09470f2f1b5962!2sPlanet%20Babys%20Medell%C3%ADn%20pa%C3%B1alera%20San%20Javier!5e0!3m2!1ses!2sco!4v1655558927015!5m2!1ses!2sco" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+                    </div>
+                    <div id="sites">
+                        <a href=""></a>
+                        <a href=""></a>
+                        <a href=""></a>
+                    </div>
+                    <div id="about"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
